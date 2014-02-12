@@ -1,0 +1,97 @@
+.pavcontentslider {
+	position:relative;
+	margin:0 -10px 20px;
+    border: 5px solid #271c0f;
+}
+.pavcontentslider .carousel-inner{
+	position:relative;
+    border: 1px solid #735e46;
+    width: auto;
+}
+
+.pavcontentslider  .banner-info{
+    background: url(../image/default/bg-slider.png) repeat left top scroll ;
+    color: #FFFFFF;
+    line-height: 18px;
+    min-height: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: 7;
+    text-align: center;
+    padding-top: 5px;
+}
+.banner-info h1 {
+	color: #e0e0e0;
+     font-size: 30px;
+     margin-bottom: 3px;
+}
+.banner-info div p {
+	color: #cbd1d2;
+}
+
+.pavcontentslider .carousel-control {
+   background-color: transparent;
+    background-image: url("../image/default/arrow-control.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    height: 27px;
+    margin-top: 0;
+    opacity: 1;
+    overflow: hidden;
+    text-indent: -9999em;
+    width: 10px;
+	z-index:25px;
+	display: none;
+	}
+	.pavcontentslider:hover .carousel-control {
+		display: block;
+	}
+.pavcontentslider .carousel-control.left {
+	background-position: left -66px;
+	left:10px;
+}
+.pavcontentslider .carousel-control.right {
+	background-position: right -66px;
+	right: 10px;
+}
+.pavcontentslider .carousel-control.left:hover {
+    background-position: left top;
+}
+.pavcontentslider .carousel-control.right:hover {
+    background-position: right top;
+}
+.pavcontentslider .carousel-indicators{
+    bottom: 3px;
+    display: inline-block;
+    left: 17px;
+    margin: 10px 0;
+    right: inherit;
+    top: inherit;
+    z-index: 20;
+}
+.pavcontentslider .carousel-indicators li{ 
+    border: 2px solid #cbc3b8;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    float: left;
+    margin: 3px;
+    padding: 1px;
+    z-index: 20;
+	background: #715c41;
+}
+.pavcontentslider .carousel-indicators li.active{ 
+	background: #d55014;
+}	
+
+.pavcontentslider  .thumb-indicators li {text-indent:0; 
+   display: block;
+    float: left;
+    height: auto;
+    margin: 10px 0 10px 8px;
+    padding: 0;
+    text-indent: 0;
+    width: auto;
+    z-index: 20;
+}

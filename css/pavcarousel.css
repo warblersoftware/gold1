@@ -1,0 +1,32 @@
+.pavcarousel.carousel{
+	padding: 10px 30px;
+	margin-bottom: 0;
+}
+.pavcarousel .item .item-inner {
+	text-align: center;
+}
+.pavcarousel .carousel-controls .carousel-control {
+    background: none repeat scroll 0 0 #715d43;
+    border: 1px solid #51412e;
+    color: #483927;
+    font-size: 20px;
+    height: 24px;
+    line-height: 23px;
+	margin-top: 0;
+    opacity: 0.5;
+    top: 30%;
+    width: 24px;
+}
+.pavcarousel .carousel-controls .carousel-control:hover {
+    background: none repeat scroll 0 0 #7d6341;
+    border: 1px solid #51412e;
+    color: #b9afa3;
+}
+.pavcarousel .carousel-controls .carousel-control.left {
+	left: 0;
+}
+
+.pavcarousel .carousel-controls .carousel-control.right {
+	left: inherit;
+	right: 0;
+}

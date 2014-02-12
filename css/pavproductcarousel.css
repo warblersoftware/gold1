@@ -1,0 +1,61 @@
+.productcarousel .box-products {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.box-products {
+	position:relative;
+}
+.productcarousel .carousel-control{
+	z-index:10
+}
+
+.productcarousel .nav{
+	padding:0;
+	margin:0
+}
+
+	.productcarousel a.carousel-control{
+		height: 20px;
+		margin: 0;
+		width: 12px;
+		background-image:url(../images/carousel_control.png) ;
+		background-repeat: no-repeat;
+		background-color: transparent;
+		border: none;
+		border-radius:0;
+		opacity: 1;
+		display: block;
+		top: 0;
+		overflow:hidden;
+		text-indent: -9999em;
+	position:absolute;
+	top:-32px;
+	}
+	.productcarousel a.left{
+		background-position: left top;
+		left: 10px;
+	}.productcarousel a.left:hover{
+		background-position: left bottom;
+	}
+	.productcarousel a.right{
+		background-position: -18px top;
+		right: 10px;
+	}
+	.productcarousel a.right:hover{
+		background-position: -18px bottom;
+	}
+.productcarousel .tab-content, .producttabs .box-product{
+	overflow:inherit
+}
+.productcarousel .box-product{
+	padding-bottom:12px;
+}
+
+.productcarousel .image {
+     margin-right: 10px;
+     margin-left: 3px;
+	 float: left;
+}
+.productcarousel .box-heading {
+	 text-align:  center;
+}
